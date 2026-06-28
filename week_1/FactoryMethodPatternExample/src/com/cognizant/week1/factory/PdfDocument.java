@@ -1,0 +1,10 @@
+package com.cognizant.week1.factory;
+//Concrete Class
+
+public class PdfDocument implements Document {
+	@Override
+	public void open() {
+		System.out.println("Opening the PDF File...");
+	
+}
+}
