@@ -1,0 +1,19 @@
+-- Scenario 1: 
+-- The bank needs to process monthly interest for all savings accounts.
+
+-- Question: 
+-- Write a stored procedure ProcessMonthlyInterest that calculates and updates the balance of all savings accounts by applying an interest rate of 1% to the current balance.
+
+
+
+CREATE OR REPLACE PROCEDURE ProcessMonthlyInterest
+IS
+BEGIN 
+ FOR i IN (SELECT * FROM account)
+ LOOP
+ IF i.type = 'Savings' THEN
+  UPDATE account SET Balance = Balance+(Balance * 0.01)
+  WHERE accountID = i.accountId;
+ END IF;
+ END LOOP;
+END;
