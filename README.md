@@ -7,21 +7,8 @@
 - Factory Method Pattern
 - E-commerce Platform Search (Linear & Binary Search)
 - Financial Forecasting using Recursion
-
-
-# Digital Nurture 5.0 - Java FSE
-
-This repository contains my hands-on exercises completed as part of the **Cognizant Digital Nurture 5.0 - Java Full Stack Engineer (Java FSE)** training program.
----
-
-## Week 1 - Design Patterns & Data Structures
-
-- Singleton Pattern
-- Factory Method Pattern
-- E-commerce Platform Search (Linear Search & Binary Search)
-- Financial Forecasting using Recursion
-
 ----
+
 ## Week 2 - PL/SQL, JUnit & Spring Basics
 
 ### PL/SQL
