@@ -1,6 +1,20 @@
 Week-1/
 │
+Phase 1
 ├── SingletonPatternExample
 ├── FactoryMethodPatternExample
 ├── EcommerceSearchExample
 └── FinancialForecastingExample
+Phase 2
+├──Control Structures, Stored Procedures
+└── Setting Up JUnit
+    Assertions
+    Arrange-Act-Assert (AAA) Pattern
+    Test Fixtures
+    Setup and Teardown Methods
+
+
+
+
+
+

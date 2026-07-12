@@ -1,0 +1,11 @@
+package com.cognizant.week1.factory;
+//Concrete Class
+
+public class WordDocument implements Document {
+	
+	@Override
+	public void open() {
+		System.out.println("Opening the Word Document...");
+	
+}
+}
